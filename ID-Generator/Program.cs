@@ -25,6 +25,6 @@ for (int rep = 0; rep < 10; rep++)
     {
         ID += letter[random.Next(1, 62)];
     }
-    Console.WriteLine(ID);
+    Console.WriteLine(ID + "\n");
     ID = "";
 }

@@ -1,5 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-string digit = "";
+﻿string digit = "";
+string repeat = "";
 Console.WriteLine("digit:");
 while (true)
 {

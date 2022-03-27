@@ -19,8 +19,12 @@ while (true)
 string letter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"; //62
 Random random = new Random();
 string ID = "";
-for (int i = 0; i < int.Parse(digit); i++)
+for (int rep = 0; rep < 10; rep++)
 {
-    ID += letter[random.Next(1, 63)];
+    for (int i = 0; i < int.Parse(digit); i++)
+    {
+        ID += letter[random.Next(1, 62)];
+    }
+    Console.WriteLine(ID);
+    ID = "";
 }
-Console.WriteLine(ID);

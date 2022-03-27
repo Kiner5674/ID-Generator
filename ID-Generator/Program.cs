@@ -7,7 +7,7 @@ while (true)
     {
         digit = Console.ReadLine();
     }
-    catch (Exception ex)
+    catch (Exception)
     {
         continue;
     }
@@ -16,7 +16,7 @@ while (true)
         break;
     }
 }
-string letter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"; //62
+string letter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"; //62 letter
 Random random = new Random();
 string ID = "";
 for (int rep = 0; rep < 10; rep++)
@@ -28,3 +28,5 @@ for (int rep = 0; rep < 10; rep++)
     Console.WriteLine(ID + "\n");
     ID = "";
 }
+Console.WriteLine("\nPress any key........");
+Console.ReadKey();

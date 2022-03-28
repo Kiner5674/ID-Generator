@@ -1,4 +1,4 @@
-﻿//Declaration system
+﻿// See https://aka.ms/new-console-template for more information
 string digit = "";
 string repeat = "";
 string letter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-[]:;,./<>?_+*}`{=~|"; //82 letter

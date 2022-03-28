@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 string digit = "";
-string repeat = "";
 string letter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-[]:;,./<>?_+*}`{=~|"; //82 letter
 Random random = new Random();
 string ID = "";
@@ -23,25 +22,8 @@ while (true)
     }
 }
 
-Console.WriteLine("repeat:");
-while (true)
-{
-    try
-    {
-        repeat = Console.ReadLine();
-    }
-    catch (Exception)
-    {
-        continue;
-    }
-    if (repeat != null | repeat.GetType() == typeof(int))
-    {
-
-    }
-}
-
 //Generating system
-for (int rep = 1; rep < int.Parse(repeat); rep++)
+for (int rep = 1; rep < 10; rep++)
 {
     for (int i = 0; i < int.Parse(digit); i++)
     {
